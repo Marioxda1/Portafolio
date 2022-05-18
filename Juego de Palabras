@@ -1,0 +1,12 @@
+SUSTANTIVO = input("Teclea un nombre masculino")
+lUGAR = input("Escribe un lugar")
+SUSTANTIVO2 = input("teclea otro un nombre masculino")
+OBJETO1 = input("Escribe un objeto en plurar")
+OBJETO2 = input ("Esctibe un objeto en femenino")
+ADJETIVO = input ("Escribe un adjetivo")
+
+print(f"Erase una vez un {SUSTANTIVO} muy presumido, que vivia en gran {lUGAR}.")
+print(f"Un dia un {SUSTANTIVO2} de un lejano pais le hizo un trato")
+print(f"Te cambio todos los {OBJETO1} De tu reino por la {OBJETO2} que mas bellesa tiene")
+print(f"El {SUSTANTIVO} no se lo penso dos veces y acepto el trato del {SUSTANTIVO2}")
+print(f"Con el tiempo el {SUSTANTIVO2} se hizo rico. Recogia los {OBJETO1} de los arboles y vendia")
