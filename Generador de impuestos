@@ -1,0 +1,17 @@
+#Generador de impuestos
+#Le pedimos data al usuario
+price = input("Digite un precio")
+
+#Convertimos formato
+price = float(price)
+
+#Impuesto
+
+Tax = 16
+
+#Calculamos
+
+totalprice = price + (price * Tax/100)
+
+# Imprimimos
+print(f"El total es: {totalprice}")
